@@ -6,7 +6,7 @@ class Device
       platformName: 'ANDROID',
       platformVersion: '8.0.0',
       deviceName: 'emulator-5554',
-      app: 'C:\app\calculadora.apk',
+      app: File.join(File.dirname(__FILE__), 'calculadora.apk'),
       wdaLocalPort: 8100
       
     }
@@ -18,7 +18,7 @@ class Device
       platformName: 'ANDROID',
       platformVersion: '7.1.1',
       deviceName: 'emulator-5556',
-      app: 'C:\app\calculadora.apk',
+      app: File.join(File.dirname(__FILE__), 'calculadora.apk'),
       wdaLocalPort: 8200
       
     }
